@@ -33,7 +33,11 @@ body {
     align-items: center;
 }
 
-.top-left, .top-right {
+.top-left  {
+    display: flex;
+    gap: 10px;
+}
+.top-right{
     display: flex;
     gap: 20px;
 }
@@ -182,7 +186,7 @@ body {
 .hero {
     background: linear-gradient(135deg, #8b5cf6, #ec4899);
     color: rgb(12, 10, 10);
-    padding: 100px 10px;
+    padding: 250px 10px;
     position: relative;
     overflow: hidden;
     background-image: url('/assets/uzummarket\ main\ img.jpg');
