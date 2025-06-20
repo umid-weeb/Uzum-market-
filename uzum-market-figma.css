@@ -16,6 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+   
 }
 
 /* Eng tepasi dan boshlayapman  */
@@ -47,7 +48,7 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1;
 }
 
 .header-content {
@@ -181,14 +182,17 @@ body {
 .hero {
     background: linear-gradient(135deg, #8b5cf6, #ec4899);
     color: rgb(12, 10, 10);
-    padding: 60px 0;
+    padding: 100px 10px;
     position: relative;
     overflow: hidden;
+    background-image: url('/assets/uzummarket\ main\ img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 
 }
-.hero:hover{
-    background: linear-gradient(135deg, #5cdaf6, #48ec53);
-}
+
 
 .hero-content {
     display: grid;
