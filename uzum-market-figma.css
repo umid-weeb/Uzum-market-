@@ -123,7 +123,7 @@ body {
 }
 
 .icon-item:hover {
-    background-color: #f3f4f6;
+    background-color: #f6f3f3;
     color: #8b5cf6;
 }
 
@@ -182,20 +182,48 @@ body {
     font-size: 18px;
 }
 
-/* asosiy qismiga yetib keldim  */
+asosiy qismiga yetib keldim  */
 .hero {
     background: linear-gradient(135deg, #8b5cf6, #ec4899);
     color: rgb(12, 10, 10);
     padding: 250px 10px;
     position: relative;
     overflow: hidden;
-    background-image: url('/assets/uzummarket\ main\ img.jpg');
+
+    background-image: 
+      url('/assets/uzummarket-main.jpg'),
+      url('/assets/uzummarket2.jpg'),
+      url('/assets/uzummarket4.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-  
+    background-repeat: no-repeat;
+    
+    animation: dabba 10s infinite;
+}
+
+/* Har 5 soniyada boshqa rasm paydo bo‘ladi */
+ @keyframes dabba {
+    0%, 30% {
+        background-image: url('/assets/uzummarket4.jpg');
+        
+    }
+    33%, 55% {
+        background-image: url('/assets/uzummarket2.jpg');
+    }
+    56%, 100% {
+        background-image: url('/assets/uzummarket-main.jpg');
+      
+    }
+} 
+.hero {
+
+    padding: 250px 10px;
+    position: relative;
+    overflow: hidden;
 
 }
+
+
 
 
 .hero-content {

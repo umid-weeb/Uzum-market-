@@ -6,12 +6,19 @@
       <meta name="description" content="Umid Market - Eng arzon narxdagi mahsulotlar bozori.">
       <meta name="keywords" content="Umid Market, uzum market, arzon narxlar, onlayn do‘kon">
       <meta name="author" content="Umid Web">
-      <meta name="google-site-verification" content="iWIt2xgbHrAClgxyB8tdoXauUxEM1GxivmEGwsWPEm8" />`
+      <meta name="google-site-verification" content="iWIt2xgbHrAClgxyB8tdoXauUxEM1GxivmEGwsWPEm8" />
 
       <title>Umid Market - Arzon narxlar bozori</title>
       <link rel="stylesheet" href="/uzum-market-figma.css">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
       <link rel="icon" type="icon" href="/assets/uzum-market-icon2.jpeg">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+      <style>
+        .carousel-item{
+            width: 100%;
+            height: 530px;
+        }
+      </style>
   </head>
   <body>
       <!-- eng tepasi  -->
@@ -44,7 +51,7 @@
                   <div class="search-container">
                       <div class="search-box">
                           <i class="fas fa-search"></i>
-                          <input type="text" placeholder="Search formahsulots...">
+                          <input type="text" placeholder="Mahsulotlarni qidirish....">
                       </div>
                   </div>
   
@@ -58,7 +65,7 @@
                           <span class="cart-count">99</span>
                       </div>
                       <div class="icon-item">
-                          <i class="fas fa-user"></i>
+                          <a href="/uzum-market-figma.html"><i  class="fas fa-user"></i></a>
                       </div>
                   </div>
               </div>
@@ -104,8 +111,33 @@
               </div>
           </div>
       </nav>
-  
-      <!-- asosiy bolim bu -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/uzum_market1.jpg" class="d-block w-100" alt="slider-img">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/uzummarket2.jpg" class="d-block w-100" alt="slider-img">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/uzummarket3.jpg" class="d-block w-100" alt="slider-img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- asosiy bolim bu
       <section class="hero">
           <div class="container">
             
@@ -114,7 +146,7 @@
               <button class="nav-arrow left"><i class="fas fa-chevron-left"></i></button>
               <button class="nav-arrow right"><i class="fas fa-chevron-right"></i></button>
           </div>
-      </section>
+      </section> -->
   
       <!-- mahsulotlar  -->
       <section class="products-section">
@@ -1457,6 +1489,487 @@
                           </button>
                       </div>
                   </div>
+                <!--mahsulot 40 -->
+                  <div class="product-card">
+                      <div class="product-image">
+                          <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                          <div class="product-badges">
+                              <span class="badge discount">-8%</span>
+                              <span class="badge bestseller">BESTSELLER</span>
+                          </div>
+                          <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                      </div>
+                      <div class="product-info">
+                          <h3>iPad Pro 12.9" M2</h3>
+                          <p class="brand">Apple</p>
+                          <div class="rating">
+                              <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                              </div>
+                              <span class="reviews">(3456)</span>
+                          </div>
+                          <div class="price">
+                              <span class="current-price">$1099</span>
+                              <span class="original-price">$1199</span>
+                          </div>
+                          <button class="add-to-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                              Savatga qo'shish
+                          </button>
+                      </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400" alt="iPad Pro">
+                        <div class="product-badges">
+                            <span class="badge discount">-8%</span>
+                            <span class="badge bestseller">BESTSELLER</span>
+                        </div>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9" M2</h3>
+                        <p class="brand">Apple</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviews">(3456)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current-price">$1099</span>
+                            <span class="original-price">$1199</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Savatga qo'shish
+                        </button>
+                    </div>
+                </div>                                                                                                                                     
 
                   <!-- Continue withmahsulots 41-100 following the same pattern -->
                   <!-- Eachmahsulot would have unique names, brands, prices, ratings, and badges -->
@@ -1483,7 +1996,7 @@
                       </div>
                       <p>O'zbekiston resubilkasidagi eng katta online internet do'kon bu Uzum market xisoblanadi </p>
                       <div class="social-links">
-                          <i class="fa-brands fa-telegram"></i>
+                          <a href="#"><i class="fa-brand fa-telegram"></i></a>
                           <a href="#"><i class="fab fa-facebook"></i></a>
                           <a href="https://www.instagram.com/umid__web/?__pwa=1#" target="_blank"><i class="fab fa-instagram"></i></a>
                           <a href="https://www.youtube.com/channel/UCsmtiX5gfBbNzTKTUv92_lA" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -1504,7 +2017,7 @@
                   <div class="footer-section">
                       <h3>Categories</h3>
                       <ul>
-                          <li><a href="#">elektronika</a></li>
+                          <li><a href="#">Elektronika</a></li>
                           <li><a href="#">Mo'da</a></li>
                           <li><a href="#">Asosiy sahifa</a></li>
                           <li><a href="#">Sports</a></li>
@@ -1518,6 +2031,7 @@
                           <p><i class="fas fa-phone"></i> +998 90 791 36 33 </p>
                           <p><i class="fas fa-envelope"></i> isroilov0705@gmail.com</p>
                           <p><i class="fas fa-map-marker-alt"></i> Andijon, Uzbekistan</p>
+                          <a href="#"><i class="fa-brand fa-arrow"></i></a>
                       </div>
                   </div>
               </div>
@@ -1531,5 +2045,7 @@
               </div>
           </div>
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
   </html>
+  
